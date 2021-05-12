@@ -1,0 +1,68 @@
+body
+{
+    font-family: Arial;
+    margin: 0;
+}
+
+.navbar
+{
+    background-color: rgb(130, 130, 130);
+    overflow: hidden;
+}
+.navbar a
+{
+    float: right;
+    color: rgb(255, 255, 255);
+    padding: 22px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar a.active
+{
+    background-color: rgb(109, 109, 109);
+}
+.navbar a:hover
+{
+    background-color: rgb(100, 100, 100);
+}
+.pfp-container
+{
+    float: left;
+}
+.pfp
+{
+    margin: 9px;
+    width: 55%;
+    height: 55%;
+    align-content: center;
+}
+
+.main-text
+{
+	padding: 80px;
+}
+.welcome
+{
+	font-size: 40px;
+}
+.description
+{
+	font-size: 20px;
+}
+.working-on-header
+{
+	font-size: 30px;
+}
+.working-on-list
+{
+	font-size: 20px;
+}
+.contact-header
+{
+	font-size: 30px;
+}
+.contact-para
+{
+	font-size: 20px;
+}
